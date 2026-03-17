@@ -1,9 +1,9 @@
-## Repositorio focado para postar projetos em java.
+## Repositorio Focado em Java
 desde sempre tive muita vontade de aprender uma linguagem consideravelmente dificil, hoje, dou meu primeiro passo para aprender todos os funcionamentos do java, meta e ser senior. 
 
 ``` Java
 
-package Estudos.aula06;
+package Estudos;
 public class main{
     public static void main(String[] args) {
         String nome;
