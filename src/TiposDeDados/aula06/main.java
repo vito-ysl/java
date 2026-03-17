@@ -1,19 +1,19 @@
 package TiposDeDados.aula06;
+
+import java.util.Locale;
+
 public class main{
     public static void main(String[] args) {
-        String nome, vila, estado;
-        int idade;
-        boolean vivooumorto;
-        nome = "Naruto";
-        vila = "uchina";
-        idade = 14;
-        vivooumorto = false;
+        /*
+        Dados nao Primitivos: String, Array, Class e Enum.
+        Objetivo: Cria um ninja, e atribuir metodos a ele.
+         */
+        String nomeNinja = "Naruto";
+        String nomeNinjaUpperCase= nomeNinja.toUpperCase(); //colocar tudo em CAPSLOCK
+        String aldeia = "Aldeia da Folha";
+        String aldeiaLowerCase = aldeia.toLowerCase();
 
-        if (vivooumorto == true){
-            estado = "vivo";
-        }else {
-            estado = "morto";
-        }
-        System.out.printf("O nome é %s, tem %d, mora em %s, é esta %s%n", nome, idade,vila,estado);
+        System.out.println("O nome do Ninja: "+ nomeNinjaUpperCase);
+        System.out.println("Esse ninja e da: "+ aldeiaLowerCase);
     }
 }

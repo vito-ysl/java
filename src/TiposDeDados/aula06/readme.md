@@ -39,3 +39,7 @@ public class Main {
         );
     }
 }
+```
+Aprendendo metodos: 
+
+    nome.toLowerCase() » Deixa tudo Minusculo, e o UpperCase deixa maior.
